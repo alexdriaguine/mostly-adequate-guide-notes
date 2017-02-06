@@ -159,7 +159,7 @@ const welcomeUser = user => {
 // pure
 const signUp = (Db, Email, attrs) => {
   return function() {
-    const user = saveUser(Db, attrs)
+    const user = saveUser(Db, attgit@github.com:alexdriaguine/mostly-adequate-guide-notes.gitrs)
     welcomeUser(Email, user)
   }
 }
